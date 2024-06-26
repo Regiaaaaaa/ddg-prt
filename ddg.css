@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif; 
+    box-sizing: border-box;
+}
+
+body{
+    background: url('RAPAA\ GZ.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: transparent;
+}
+
+nav .logo {
+    font-size: 28px;
+    color: #ffff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+nav .logo span {
+    color: brown;
+}
+
+nav .nav-menu {
+   display: flex;
+   gap: 100px;
+}
+
+nav .nav-menu a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+nav button {
+    border: none;
+    background-color: #771E1E;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    color: #ffff;
+}
+
+main .hero {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 100px;
+    color: #ffff;
+}
+
+main .hero span {
+    color: brown;
+}
+
+main .hero h1 {
+    font-size: 90px;
+}
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid brown;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: brown;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+
+.about{
+    width: 100%;
+    height: 110vh;
+    background-color: #000033;
+    padding: 100px;
+    margin-top: 650px;
+}
+
+.about .main img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.about .main {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    color: #ffff;
+}
+
+.about .about-text h1 {
+    font-size: 90px;
+}
+
+.about .about-text h3 {
+    font-size: 30px;
+}
+
+.about .about-text p {
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.about .about-text span {
+    color: brown;
+}
+
+.about .about-text button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    background-color: brown;
+    color: #ffff;
+    border: none;
+}
+
+.skill {
+    background-color: #00004D;
+    width: 100%;
+    height: 110vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    gap: 100px;
+}
+
+.skill h1 {
+    position: absolute;
+    margin-top: -400px;
+}
+
+.skill .card-skill .card-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.skill .card-skill {
+    background-color: #1E1E1E;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.skill .card-skill .card-desk{
+    text-align: center;
+}
+
+.skill .card-skill .card-desk button {
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: -100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #771E1E;
+    border: none;
+    color: #ffff;
+}
+
+footer .iklan {
+    background-color: #000033;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    color: #ffff;
+    font-weight: 600;
+}
+
+footer .iklan button {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #771E1E;
+    border: none;
+    color: #ffff;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+footer .footer-social {
+    width: 100%;
+    background-color: #00004D;
+    height: 40vh;
+    padding: 20px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .footer-social .footer-icon {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+}
